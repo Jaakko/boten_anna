@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Boten Anna!</title>
+    <meta name="description" content="Let your personality show">
+    <!--<link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon"> -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Boten Anna
+      </h1>
+    </header>
+	
+    <main>
+      <p class="bold">Let your personality show</p>
+      <p>Give your profile data, Boten Anna tells who you are</p>
+      <form>
+        <input type="text" name="twitter_name" maxlength="100" placeholder="Your Twitter name!">
+		<textarea rows="10" cols="100" name="profile" maxlength="500" placeholder="Tell us more about you!"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+
+    </main>
+	<img src="/boten_anna.png" </img>
+	  <div id="result"></div>
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/client.js"></script>
+
+  </body>
+</html>
