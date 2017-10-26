@@ -1,0 +1,19 @@
+{
+  "name": "boten anna",
+  "version": "1.0.0",
+  "description": "hackatemia api template",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "author": "Jaakko Rajaniemi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.0",
+    "querystring": "^0.2.0",
+    "request": "^2.83.0"
+  }
+}
